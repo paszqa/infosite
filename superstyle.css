@@ -1,0 +1,53 @@
+div.standardSector {
+	background-color: #111;
+	width: 500;
+	height: 400;
+	border-radius: 20px;
+	display: inline-block;
+}
+div.textSector {
+	background-color: #111;
+	width: 460;
+	height: 360;
+	border-radius: 20px;
+	display: inline-block;
+	overflow: hidden;
+	padding: 20px;
+	font-family: Verdana;
+	font-weight: 1000;
+	color: #000000;
+	align: center;
+}
+
+.div-table {
+  display: table;         
+  background-color: #eee;         
+  border: 0px solid #666666;         
+  font-size: 10px;
+}
+.div-table-row {
+  display: table-row;
+  clear: both;
+  font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;   
+}
+.div-table-col {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;         
+  background-color: #ccc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  border: 1px solid #000000;  
+}
+
+.div-text {
+  margin: auto;
+  width: 70%;
+  background-color: #ccc;
+  display:inline-block;
+  text-align:center; 
+  border-radius: 5px;
+}
