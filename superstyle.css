@@ -5,6 +5,23 @@ div.standardSector {
 	border-radius: 20px;
 	display: inline-block;
 }
+
+div.smallSector {
+	background-color: #111;
+	width: 460;
+	height: 100;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 20px;
+	font-family: Verdana;
+	font-weight: 1000;
+	color: #ffffff;
+	font-size: 30px;
+	display:inline-block;
+	margin-bottom: 10px;
+}
+
+
 div.textSector {
 	background-color: #111;
 	width: 460;
@@ -51,3 +68,129 @@ div.textSector {
   text-align:center; 
   border-radius: 5px;
 }
+
+/*steam*/
+.searchbar_left{
+	background-color: rgba( 103, 193, 245, 0.2 );
+	width: 300px;
+	display: block;
+	margin: 0 0 0 0;
+}
+
+
+.searchform{
+	min-width: 350px;
+	max-width: 330px;
+	min-height: 35px;
+	max-height: 35px;
+	display: block;
+	height: 25px;
+}
+
+.steaminput {
+	background-color: rgba( 103, 193, 245, 0.2 );
+	border-radius: 5px;
+	border: 0px solid #000000;
+	width: 200px;
+	height: 25px;
+	font-size: 12px;
+	color: #bbbbbb;
+}
+
+.steaminput:focus{
+	border: 0px solid #000000;
+	outline: none;
+}
+
+.steambutton{
+	border-radius: 2px;
+border: none;
+padding: 1px;
+display: inline-block;
+cursor: pointer;
+text-decoration: none !important;
+color: #67c1f5 !important;
+background: rgba( 103, 193, 245, 0.2 );
+width: 100px;
+height: 25px;
+}
+
+.steambutton:hover{
+	background: linear-gradient( -60deg, #417a9b 5%,#67c1f5 95%);
+	text-decoration: none !important;
+	color: #fff !important;
+}
+
+
+/*duck duck go*/
+.ddginput {
+	background-color: #fafad2;
+	border-radius: 5px;
+	border: 0px solid #000000;
+	width: 200px;
+	height: 25px;
+	font-size: 12px;
+	color: #bbbbbb;
+}
+
+.ddginput:focus{
+	border: 0px solid #00cc00;
+	outline: none;
+}
+
+.ddgbutton{
+	border-radius: 2px;
+	border: none;
+	padding: 1px;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none !important;
+	color:  #b36b00 !important;
+	background-color: #263300;
+	width: 100px;
+	height: 25px;
+}
+
+.ddgbutton:hover{
+	background-color: #739900;
+	text-decoration: none !important;
+	color: #fff !important;
+}
+
+/*GGdeals*/
+
+.gginput {
+	background-color: #fafad2;
+	border-radius: 5px;
+	border: 0px solid #000000;
+	width: 200px;
+	height: 25px;
+	font-size: 12px;
+	color: #bbbbbb;
+}
+
+.gginput:focus{
+	border: 0px solid #00cc00;
+	outline: none;
+}
+
+.ggbutton{
+	border-radius: 2px;
+	border: none;
+	padding: 1px;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none !important;
+	color:  #a0a0a0 !important;
+	background-color: #000033;
+	width: 100px;
+	height: 25px;
+}
+
+.ggbutton:hover{
+	background-color: #0000cc;
+	text-decoration: none !important;
+	color: #ffffff !important;
+}
+
+
